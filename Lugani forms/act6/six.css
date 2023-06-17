@@ -1,0 +1,19 @@
+.container-wrapper {
+    display: flex;
+  }
+  
+  .container-left,
+  .container-right {
+    flex: 1;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  .container-left {
+    border: 1px solid #ccc;
+    margin-right: 10px;
+  }
+  
+  .container-right {
+    border: 1px solid #ccc;
+  }
